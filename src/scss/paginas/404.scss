@@ -1,0 +1,20 @@
+@use '../base/variable' as v;
+
+
+.pagina_404{
+
+    &__heading{
+        
+    }
+
+    &__contenedor{
+        text-align: center;
+    }
+
+    &__texto{
+
+    }
+    &__enlace{
+        color: v.$azul;
+    }
+}

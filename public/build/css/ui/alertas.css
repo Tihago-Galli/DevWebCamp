@@ -1,0 +1,18 @@
+.alerta {
+  padding: 1.5rem 1.5rem 1.5rem 3rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.alerta--exito {
+  background-color: #78fe78;
+  border-left: 0.5rem solid #02db02;
+  color: #017601;
+}
+.alerta--error {
+  background-color: #ffdcdc;
+  border-left: 0.5rem solid rgb(169, 0, 0);
+  color: rgb(169, 0, 0);
+}
+/*# sourceMappingURL=alertas.css.map */

@@ -1,0 +1,23 @@
+/** Media Queries **/
+.navegacion {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .navegacion {
+    flex-direction: row;
+  }
+}
+.navegacion__enlace {
+  color: #FFFFFF;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+.navegacion__enlace:hover, .navegacion__enlace--actual {
+  background-color: #FFFFFF;
+  color: #007df4;
+}
+/*# sourceMappingURL=navegacion.css.map */
